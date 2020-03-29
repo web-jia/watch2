@@ -1,0 +1,779 @@
+.lb_box{
+    width:100%;
+    position: relative;
+    top: 60px;
+}
+.lb_box .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background:url("../images/dian1.png") no-repeat;
+    background-size: cover;
+}
+
+.lb_box .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    background:url("../images/dian3.png") no-repeat;
+    background-size: cover;
+    opacity:1;
+}
+.lb_box .swiper-container .swiper-slide .banner_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.lb_box .introduce{
+    position: absolute;
+    top:32%;
+    left:10%;
+    z-index: 99;
+}
+.lb_box .introduce .p_box1 p{
+    color:#e0e0e0;
+    font-size:1rem;
+}
+.lb_box .introduce .logo_img{
+    width: 150px;
+    height:auto;
+}
+.p_box1 .search{
+    border:1px solid #fff;
+    padding: 15px 30px;
+    margin: 20px 2px;
+    width: 155px;
+}
+.lb_box .search:hover{
+    background:#bf001d;
+    color:#fff;
+    cursor: pointer;
+    border-color: transparent;
+}
+.ppt1{
+    text-align:center;
+    margin-top: 50px;
+    padding: 100px 60px 60px 60px;
+}
+.text .title{
+   font-size:28px;
+   color:#bf001d;
+   letter-spacing: 3px;
+}
+.more-text{
+    padding: 32px 0px;
+    width: 52%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.detail{
+    border:1px solid #e2e2e2;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.ppt2{
+	margin: 40px auto;
+	position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 80%;
+}
+.ppt2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ppt2 .box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.ppt2 .box.active{
+    display: none;
+}
+.ppt2 .box img {
+    width: 56px;
+}
+.ppt3{
+    text-align:center;
+    padding:40px;
+}
+.ppt4{
+    width:100%;
+    position: relative;
+    padding:160px 0px;
+}
+.ppt4 .swiper-container2{
+    position: relative;
+    width:100%;
+}
+.ppt4 .swiper-container2 p{
+    text-align: center;
+    top: 20px;
+    position: relative;
+    width: 200px;
+    left: calc(50% - 109px);
+}
+.ppt4 .swiper-container2 .swiper-wrapper img{
+    width:100%;
+    height:100%;
+    min-width:100px;
+    object-fit: cover;
+}
+.ppt4 .swiper-pagination.swiper-pagination2.swiper-pagination-fraction{
+    top: -120px;
+    color:#bf001d;
+    z-index:-90;
+    height:30px;
+}
+.ppt4 .swiper-pagination.swiper-pagination2.swiper-pagination-fraction::after{
+    content: '\e615';
+    position: absolute;
+    left: calc(50% - 10px);
+    font-size: 20px;
+    bottom: -7px;
+    font-family: 'iconfont';
+}
+.ppt4 .swiper-container-horizontal > .swiper-scrollbar {
+    position: absolute;
+    left: 25%;
+    bottom: -70px;
+    z-index: 50;
+    height: 4px;
+    width: 45%;
+    background-color: #e9e9ea;
+}
+.ppt4 .swiper-scrollbar-drag {
+    width: 50%;
+    position: relative;
+    background: #bf001d;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+}
+.kong1 {
+    width: 10%;
+    height: 300px;
+    background: #fff;
+    opacity: 0.5;
+    right: 0;
+    position: absolute;
+    top: -15px;
+    z-index: 20;
+}
+.kong2 {
+    width: 10%;
+    height: 300px;
+    background: #fff;
+    opacity: 0.5;
+    left: 0;
+    position: absolute;
+    top: -15px;
+    z-index: 20;
+}
+.ppt4 .swiper-button-next2{
+    z-index: 99;
+    width: 1px!important;
+    height: 0px;
+    right: 0px;
+    padding: 31px;
+    background-color: #bf001d;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    background-size: 12px;
+}
+.ppt4 .swiper-button-next2:hover{
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23bf001d'%2F%3E%3C%2Fsvg%3E");
+}
+.ppt4 .swiper-button-prev2{
+    z-index: 99;
+    width: 1px!important;
+    height: 0px;
+    left: 0px;
+    padding: 31px;
+    background-color: #bf001d;
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    background-size: 12px;
+}
+.ppt4 .swiper-button-prev2:hover{
+    background-color: #fff;
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23bf001d'%2F%3E%3C%2Fsvg%3E");
+}
+
+.ppt4 .swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{
+    opacity:0!important;
+}
+.ppt4 .swiper-slide p{
+    opacity:0;
+}
+.ppt4 .swiper-slide.swiper-slide-active p{
+   opacity:1!important;
+}
+.ppt4 .swiper-slide .wrapper::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #c5c5c5;
+    width: 148%;
+    height: 114%;
+    left: -38px;
+    top: -20px;
+    display:none;
+} 
+
+.ppt4 .swiper-slide.swiper-slide-active:hover .wrapper::after{
+    display:none;
+}
+.ppt4 .swiper-slide:hover .wrapper::after{
+    display:block;
+}
+.ppt4 .swiper-slide:hover p{
+    opacity:1;
+    color:#bf001d;
+}
+ .ppt6{
+     margin:60px 0px;
+     text-align:center;
+ }
+ .ppt7{
+     position: relative;
+     width:80%;
+     margin:40px auto;
+     overflow: hidden;
+ }
+ .swiper-container3 img{
+     width:100%;
+     height:100%;
+     object-fit: cover;
+ }
+.ppt7 .swiper-pagination3{
+    text-align:center;
+}
+.ppt7 .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background:url("../images/dian1.png") no-repeat;
+    background-size:cover;
+}
+.swiper-button-prev.swiper-button-prev3,.swiper-button-next.swiper-button-next3{
+    width: 48px;
+    height: 48px; 
+    
+} 
+.swiper-button-prev.swiper-button-prev3{
+    background:url("../images/left2.png") no-repeat;
+    background-size:cover;
+    left:0;
+}
+.swiper-button-next.swiper-button-next3{
+    background:url("../images/right2.png") no-repeat;
+    background-size:cover;
+    right:0;
+}
+.ppt8{
+    width:100%;
+    position: relative;
+    padding:80px 0px;
+}
+
+.ppt8 .swiper-container4{
+    position: relative;
+}
+.ppt8 .swiper-container4 .swiper-wrapper img{
+    width:100%;
+    height:100%;
+    min-width:100px;
+    object-fit: cover;
+}
+
+.ppt8 .swiper-pagination.swiper-pagination4.swiper-pagination-fraction{
+    top: -50px;
+    color:#bf001d;
+    z-index:-90;
+    height:30px;
+}
+.ppt8 .swiper-pagination.swiper-pagination4.swiper-pagination-fraction::after{
+    content: '\e615';
+    position: absolute;
+    left: calc(50% - 10px);
+    font-size: 20px;
+    bottom: -7px;
+    font-family: 'iconfont';
+}
+.ppt8 .swiper-container-horizontal > .swiper-scrollbar {
+    position: absolute;
+    left: 25%;
+    bottom: -37px;
+    z-index: 50;
+    height: 4px;
+    width: 45%;
+    background-color: #e9e9ea;
+}
+.ppt8 .swiper-scrollbar-drag {
+    width: 50%;
+    position: relative;
+    background: #bf001d;
+    border-radius: 10px;
+    left: 0px;
+    top: 0;
+}
+.ppt8 .swiper-button-next4{
+    z-index: 99;
+    width: 1px!important;
+    height: 0px;
+    right: 0px;
+    padding: 31px;
+    background-color: #bf001d;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    background-size: 12px;
+}
+.ppt8 .swiper-button-next4:hover{
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23bf001d'%2F%3E%3C%2Fsvg%3E");
+}
+.ppt8 .swiper-button-prev4{
+    z-index: 99;
+    width: 1px!important;
+    height: 0px;
+    left: 0px;
+    padding: 31px;
+    background-color: #bf001d;
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    background-size: 12px;
+}
+.ppt8 .swiper-button-prev4:hover{
+    background-color: #fff;
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23bf001d'%2F%3E%3C%2Fsvg%3E");
+}
+.ppt8 .swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{
+    opacity:0!important;
+}
+
+.ppt8 .swiper-slide:hover .swiper-slide p{
+    opacity:1!important;
+    color:#bf001d;
+}
+.ppt8 .swiper-slide p{
+    width: 200px;
+    position: relative;
+    padding-top: 20px;
+    left: calc(50% - 100px);
+    text-align: center;
+    opacity:0;
+}
+.ppt8 .swiper-slide.swiper-slide-active p{
+    opacity:1;
+}
+.ppt8 .swiper-slide .wrapper::after{
+    content: '';
+    position: absolute;
+    border: 1px solid #c5c5c5;
+    width: 148%;
+    height: 109%;
+    left: -38px;
+    top: -20px;
+    display:none;
+} 
+.ppt8 .swiper-slide.swiper-slide-active .wrapper:hover::after{
+    display:none;
+}
+.ppt8 .swiper-slide .wrapper:hover::after{
+    display:block;
+}
+.ppt8 .swiper-slide:hover p{
+    opacity:1;
+    color:#bf001d;
+}
+
+.ppt9{
+    padding:60px 0;
+    text-align:center;
+}
+.ppt10{
+    position:relative;
+    width:100%;
+}
+.ppt10 .wrapper2{
+    display:flex;
+}
+.ppt10 .wrapper2 .left{
+    width:50%;
+    display:inline-block;
+}
+.ppt10 .wrapper3 .top{
+    width:100%;
+}
+.ppt10 .wrapper3 .bottom{
+    width:100%;
+}
+.ppt10 .wrapper2 .left img,.ppt10 .wrapper3 .top img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.ppt10 .wrapper2 .right{
+    display:inline-block;
+    width:50%;
+    background:#fbfbfb;
+}
+.ppt10 .wrapper3 .bottom .swiper-container5 .swiper-slide{
+    padding:10%;
+}
+.ppt10 .wrapper3 .bottom .swiper-container5 .swiper-slide img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.ppt10 .wrapper2 .right p,.ppt10 .wrapper3 .bottom p{
+    text-align:center;
+}
+.ppt10 .wrapper2 ul li{
+    display:inline-block;
+    width: 49%;
+    padding: 7% 10% 3% 10%;
+}
+.ppt10 .wrapper2 ul li img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.ppt11{
+    width:100%;
+    text-align:center;
+    padding: 110px 0 30px 0;
+}
+.title_all{
+    color:#838383;
+    padding:20px 0;
+    font-size:16px;
+}
+.ppt12{
+    position:relative;
+    width:100%;
+}
+.ppt12 .news_box{
+    width:80%;
+    display:flex; 
+    position: relative;
+    left: calc(50% - 40% );
+}
+.ppt12 .news{
+    display:inline-block; 
+    width:calc(80% / 4 + 70px);
+    padding: 0 10px;
+}
+.ppt12 .news .img_box{
+    overflow: hidden;
+    font-size:0;
+}
+.ppt12 .news .img_box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all 2s;
+}
+.ppt12 .news .text_box{
+    width:100%;
+}
+.ppt12 .news .img_box:hover img{
+    
+    transform: scale(1.2);
+}
+.ppt12 .title1{
+    padding: 10px 0;
+    color:#707070;
+} 
+.ppt12 .title2{
+    padding: 10px 0 30px 0;
+    color:#000;
+    font-size:18px;
+    font-weight:bold;
+} 
+
+.ppt12 .content{
+    font-size:16px;
+    color:#707070;
+}
+.ppt12 .news:hover .title2{
+    color:#bf001d;
+}
+.detail:hover,.ppt5 .p2:hover{
+    background:#bf001d;
+    color:#fff;
+    cursor: pointer;
+}
+@media screen and (min-width: 1440px) {
+	.more-text{
+        width: 52%;
+    }
+    .ppt10 .wrapper3{
+        display:none;
+    }
+}
+@media screen and (min-width: 1150px) and (max-width: 1440px) {
+    .ppt4 .swiper-container2 p{
+        left: -53px;
+    }
+    .more-text{
+        width: 80%;
+    }
+    .ppt8 .swiper-slide p{
+        left: -53px;
+    }
+    .ppt10 .wrapper3{
+        display:none;
+    }
+ }
+@media screen and (min-width: 950px) and (max-width: 1150px) {
+    .ppt4 .swiper-container2 p{
+        top:218px;
+        position: absolute;
+        left: -55px;
+    }
+    .more-text{
+        width: 80%;
+    }
+    .ppt8 .swiper-slide p{
+        left: -53px;
+    }
+    .ppt10 .wrapper3{
+        display:none;
+    }
+    .ppt12 .news_box{
+        width:90%;
+        left: calc(50% - 45% );
+    }
+   }
+
+@media screen and (min-width: 780px) and (max-width: 950px) {
+    .lb_box .introduce {
+        top: 18%;
+    }
+    .more-text{
+        width: 80%;
+    }
+    .ppt4 .swiper-container2 p{
+        top:218px;
+        position: absolute;
+        left: -55px;
+    }
+    .ppt8 .swiper-slide p{
+        left: -53px;
+    }
+    .ppt10 .wrapper3{
+        display:none;
+    }
+    .ppt12 .news{
+        width: calc(90% / 2);
+        padding: 35px 10px;
+    }
+    .ppt12 .news_box{
+        flex-wrap: wrap;
+        width:90%;
+        margin: 0 auto;
+        left: calc(50% - 45% );
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 780px) {
+    .lb_box .introduce {
+        top: 16%;
+    }
+    .more-text{
+        width: 90%;
+    }
+    .ppt4 .swiper-container2 p{
+        top:218px;
+        position: absolute;
+        left: -55px;
+    }
+    .ppt5 .wrapper{
+        display:block;
+    }
+    .ppt5 .wrapper .left{
+        width:100%;
+    }
+    .ppt5 .wrapper .right{
+        width:100%; 
+        text-align:center;
+    }
+    .ppt5 .wrapper .right .text_box1 .p2{
+        margin:20px auto;
+    }
+    .ppt8 .swiper-slide p{
+        left: -53px;
+    }
+    .ppt10 .wrapper2{
+        display:none;
+    }
+    .ppt10 .wrapper3 .bottom .swiper-container5 .swiper-slide {
+        padding: 5% 3% 5% 3%;
+    }
+    .ppt12 .news{
+        width: calc(90% / 2);
+        padding: 35px 10px;
+    }
+    .ppt12 .news_box{
+        flex-wrap: wrap;
+        width:90%;
+        margin:0 auto;
+        left: calc(50% - 45% );
+    }
+   }
+   @media screen and (min-width: 480px) and (max-width: 650px) {
+    .ppt1{
+        padding: 60px 20px 10px 20px;
+    }
+    .more-text{
+        width: 90%;
+    }
+    .ppt2{
+        width:90%;
+    }
+    .ppt3{
+        padding:20px 30px 40px 30px;
+    }
+    .ppt4 .swiper-container2 p{
+        top:218px;
+        position: absolute;
+        left: -55px;
+    }
+    .kong1,.kong2{
+        width:0%;
+    }
+    .ppt4 .swiper-button-next2,.ppt4 .swiper-button-prev2,
+    .ppt8 .swiper-button-next4,.ppt8 .swiper-button-prev4{
+        padding: 25px;
+        background-size: 8px;
+    }
+    .ppt5 .wrapper{
+        display:block;
+    }
+    .ppt5 .wrapper .left{
+        width:100%;
+    }
+    .ppt5 .wrapper .right{
+        width:100%; 
+        text-align:center;
+    }
+    .ppt5 .wrapper .right .text_box1 .p2{
+        margin:20px auto;
+    }
+    .ppt5 .wrapper .right .text_box1 .title2{
+        font-size:23px;
+    }
+    .ppt7{
+        width:90%;
+    }
+    .ppt7 .swiper-button-prev.swiper-button-prev3, .swiper-button-next.swiper-button-next3{
+        width: 48px;
+        height: 48px;
+        top: 46%;
+    }
+    .ppt8 .swiper-slide p{
+        left: -53px;
+    }
+    .ppt10 .wrapper2{
+        display:none;
+    }
+    .ppt11{
+        padding: 50px 0 30px 0;
+    }
+    .ppt12 .news{
+        width: calc(95% / 2);
+        padding: 25px 7px;
+    }
+    .ppt12 .news_box{
+        flex-wrap: wrap;
+        width: 95%;
+        left: calc(50% - 47.5% + 14px);
+    }
+    .text .title{
+        font-size:23px;
+    }
+   }
+   @media screen and (max-width: 480px){
+    .ppt1{
+    padding: 60px 20px 10px 20px;
+    }
+    .more-text{
+        width: 90%;
+    }
+    .ppt2{
+        width:90%;
+    }
+    .ppt3{
+        padding:20px 30px 40px 30px;
+    }
+    .ppt4 .swiper-container2 p{
+        top:218px;
+        position: absolute;
+        left: -55px;
+    }
+    .ppt4{
+        padding:100px 0;
+    }
+    .kong1,.kong2{
+        width:25%;
+    }
+    .ppt4 .swiper-pagination.swiper-pagination2.swiper-pagination-fraction{
+        top: -85px;
+    }
+    .ppt4 .swiper-button-next2,.ppt4 .swiper-button-prev2,
+    .ppt8 .swiper-button-next4,.ppt8 .swiper-button-prev4{
+        padding: 21px;
+        background-size: 7px;
+    }
+    .ppt5 .wrapper{
+        display:block;
+    }
+    .ppt5 .wrapper .left{
+        width:100%;
+    }
+    .ppt5 .wrapper .right{
+        width:100%; 
+        text-align:center;
+    }
+    .ppt5 .wrapper .right .text_box1 .p2{
+        margin:20px auto;
+    }
+    .ppt5 .wrapper .right .text_box1 .title2{
+        font-size:20px;
+    }
+    .ppt7{
+        width:90%;
+    }
+    .ppt7 .swiper-button-prev.swiper-button-prev3, .swiper-button-next.swiper-button-next3{
+        width: 42px;
+        height: 42px;
+        top: 46%;
+    }
+    .ppt8 .swiper-slide p{
+        left: -53px;
+    }
+    .ppt10 .wrapper2{
+        display:none;
+    }
+    .ppt11{
+        padding: 50px 0 10px 0;
+    }
+    .ppt12 .news{
+        width: 90%;
+        padding: 35px 0; 
+    }
+    .ppt12 .news_box{
+        flex-wrap: wrap;
+        width: 95%;
+        left: calc(50% - 42% );
+    }
+    .text .title{
+        font-size:20px;
+    }
+   }

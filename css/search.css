@@ -1,0 +1,408 @@
+.children-pro a{
+    color:#000;
+}
+.t-breadcrumbs {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    color: #fff;   
+}
+.t-breadcrumbs .breadcrumbs-item-text{
+    font-size: 1em;
+    line-height: 20px;
+    margin: 0;
+}
+.breadcrumbs a{
+    color:#fff;
+}
+.page_wrapper{
+    position:relative;
+    padding-top:60px;
+    width:100%;
+    background:#fff;
+}
+.ppt1{
+    width:100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+}
+.ppt1 .banner_wrapper1{
+    width:100%;
+    position:fixed;
+}
+.ppt1 .banner_wrapper1 .img_box{
+    width:100%;
+}
+.ppt1 .banner_wrapper1 .img_box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    min-height: 270px;
+}
+.ppt1 .title-header{
+    position: absolute;
+    color:#fff;
+    font-size:2.5rem;
+    letter-spacing: 3px;
+    left: calc(50% - 64px);
+    top: calc(50% - 20px);
+}
+.ppt1 .tubiao{
+    position: absolute;
+    color: #fff;
+    left: calc(50% + 91px);
+    top: calc(50% - 18px);
+    font-size: 40px;
+    cursor: pointer;
+}
+.columns-top{
+    background: rgba(0,0,0,.9) !important;
+    height: 100vh;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity:0;
+    z-index:-99;
+    transition: all 0.64s ease 0s;
+}
+.columns-top.show{
+    opacity:1;
+    z-index: 9999999;
+}
+.wrapper{
+    padding-top: 13%;
+}
+.wrapper ul{
+    text-align: center;
+    font-size: 30px;
+}
+.wrapper ul li{
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    cursor: pointer;
+    color: #717171;
+}
+.wrapper ul li.active,.wrapper ul li:hover{
+    color: #fff;
+}
+.wrapper .tubiao2{
+    position: absolute;
+    right: 115px;
+    color: #fff;
+    font-size: 45px;
+    top: 78px;
+    display:inline-block;
+    cursor: pointer;
+}
+.wrapper .tubiao2:hover{
+    color: #c40d2e;
+}
+
+.ppt2{
+    position: relative;
+    background: #fff;
+    z-index: 99999;
+    width: 100%;
+    margin-top: 24%;
+}
+.search-wrapper{
+    background: #fff;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.ppt2 input{
+    padding: 0 50px 0 10px;
+    border: 0;
+    background: 0 0;
+    text-align: center;
+    height: 65px;
+    font-size: 22px;
+    padding: 0px 75px;
+    width:100%;
+}
+button{
+    position: absolute;
+    top: 0;
+    right: 2px;
+    background:#fff;
+    width: 65px;
+    height: 65px;
+    font-size: 0;
+    border:1px solid #e2e2e2;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0;
+}
+form{
+    width: 100%;
+}
+.ppt2 .tubiao3{
+    font-size: 31px;
+    top: 4px;
+    position: relative;
+}
+
+.column-main{
+    position: relative;
+    width:100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.column-main a{
+    color:#000;
+}
+.products{
+    margin: 0;
+    padding: 0;
+}
+.product-item-actions{
+    display: block;
+    opacity: 1;
+    height: 50px;
+    transition: opacity .15s ease;
+    text-align:center;
+}
+.product-item-actions span{
+    position: relative;
+    display: inline-block;
+    margin-top: 31px;
+    padding: 10px 0 10px;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 30px;
+    opacity:0;
+}
+.prodcut-item:hover .product-item-actions span{
+    opacity:1;
+}
+.product-item-actions span:hover{
+    background:#bf001d;
+    color:#fff!important;
+}
+
+.products{
+    display:flex;
+    flex-wrap: wrap;
+}
+.prodcut-item{
+    width: 23%;
+    margin:0 auto 1%;
+    padding: 28px 0;
+}
+.prodcut-item:hover{
+    border:1px solid #e5e5e5;
+}
+.prodcut-item:hover span{
+    border-top: 1px solid #e5e5e5;
+    width:100%;
+    color: #000;
+}
+.prodcut-item .img_box{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.prodcut-item .img_box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.prodcut-item .details{
+    padding:5%;
+    text-align: center;
+    cursor: pointer;
+}
+.details:hover p{
+    color:#bf001d;
+}
+.ppt3{
+    position: relative;
+    width:100%;
+    height: 66px;
+    background:#fff;
+    margin-top: 30px;
+}
+.ppt3 .category-footer{
+    position: absolute;
+    background: #f2f2f2;
+    width: 100%;
+    text-align: center;
+    /* position: fixed; */
+    /* transform: translate3d(0,70px,0); */
+    bottom: 0;
+    left: 0;
+    display: block;
+    border-top: 1px solid #fff;
+    font-size: 0;
+}
+.ppt3 .category-footer .category-footer-item{
+    float: none;
+    width: auto;
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.ppt3 .category-footer .category-footer-item .category-footer-link{
+    display: block;
+    line-height: 60px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    color:#000;
+    transition: color .15s ease;
+}
+.category-footer .category-footer-item .category-footer-link.active:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: #c40d2e;
+    transition: left .6s cubic-bezier(.19,1,.22,1),width .6s cubic-bezier(.19,1,.22,1);
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+.category-footer .category-footer-item .category-footer-link:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 0;
+    height: 5px;
+    background: #c40d2e;
+    transition: left .6s cubic-bezier(.19,1,.22,1),width .6s cubic-bezier(.19,1,.22,1);
+}
+.category-footer .category-footer-item .category-footer-link:hover.category-footer-link:after{
+    width: 100%;
+    
+}
+.category-footer .category-footer-item .category-footer-link:hover{
+    color:#c40d2e;
+}
+.ppt3 .category-footer .category-footer-item a.active{
+    color: #c40d2e;
+    transition: left .6s cubic-bezier(.95,.05,.795,.035),width .6s cubic-bezier(.95,.05,.795,.035);
+}
+
+.ppt3 .category-footer .category-footer-item a span{
+    display: inline-block;
+    line-height: 120%;
+    vertical-align: middle;
+}
+.footer{
+    padding-top:60px;
+}
+.footer a{
+    color:#000;
+}
+@media screen and (min-width: 1170px) and (max-width: 1440px) {
+    .ppt2{
+        margin-top: 25%;
+    }
+ }
+@media screen and (min-width: 950px) and (max-width: 1170px) {
+    .ppt2{
+        margin-top: 326px;
+    }
+    .prodcut-item {
+        width: 30%;
+        margin: 0 auto 1%;
+        padding: 3% 0;
+    }
+   }
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+    .ppt1 p{
+        font-size:24px;
+    }
+    .ppt1 .tubiao {
+        left: calc(50% + 56px);
+        top: calc(50% - 17px);
+        font-size: 30px;
+    }
+    .ppt2{
+        margin-top: 330px;
+    }
+    .prodcut-item {
+        width: 30%;
+        margin: 0 auto 1%;
+        padding: 4% 0;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 650px) {
+    .ppt1{
+        position:relative;
+    }
+    .ppt1 .title-header{
+        font-size:20px;
+        left: calc(50% - 46px);
+        top: calc(50% - 13px);
+    }
+    .ppt1 .tubiao {
+        left: calc(50% + 47px);
+        top: calc(50% - 14px);
+        font-size: 25px;
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .ppt2{
+        margin-top: 330px;
+    }
+    .prodcut-item {
+        width: 45%;
+        margin: 0 auto 1%;
+        padding: 5% 0;
+    }
+    .ppt3 .category-footer .category-footer-item{
+        float: left;
+        width: 50%;
+        vertical-align: bottom;
+        margin:0;
+    }
+   }
+@media screen and (max-width: 480px){
+    .ppt1{
+        position:relative;
+    }
+    .ppt1 .title-header{
+        font-size:20px;
+        left: calc(50% - 46px);
+        top: calc(50% - 13px);
+    }
+    .ppt1 .tubiao {
+        left: calc(50% + 47px);
+        top: calc(50% - 14px);
+        font-size: 25px;
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .ppt2{
+        margin-top: 330px;
+    }
+    .prodcut-item{
+        width: 49%;
+        margin: 0 auto 1%;
+        padding: 7% 0;
+    }
+    .ppt3 .category-footer .category-footer-item{
+        float: left;
+        width: 50%;
+        vertical-align: bottom;
+        margin:0;
+    }
+   }

@@ -1,0 +1,144 @@
+.t-breadcrumbs {
+    margin: 85px 35px 67px 35px;
+    color:#7a7a7a;
+    position: relative;
+}
+.t-breadcrumbs .breadcrumbs-item-text{
+    font-size: 1em;
+    line-height: 20px;
+    color: #c40d2e;
+    margin: 0;
+}
+.t-breadcrumbs .breadcrumbs-item-text a{
+    color: #c40d2e;
+}
+.t-breadcrumbs .search{
+    position: absolute;
+    right: 40px;
+    background: #f1f1f1;
+    padding: 16px 33px 16px 24px;
+    width: 175px;
+    margin-top: 16px;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+.t-breadcrumbs .search p{
+    display:inline-block;
+}
+.t-breadcrumbs .search .search_img{
+    margin-right: 9px;
+}
+.ppt1{
+    position: relative;
+    width:100%;
+    text-align:center;
+    padding-top:20px;
+}
+.ppt1 .title{
+    font-size:25px;
+    color:#c40d2e;
+    letter-spacing: 2px;
+}
+.ppt1 .product_wrapper{
+    padding-top:95px;
+    padding-bottom: 130px;
+}
+.ppt1 .product_wrapper .product-list{
+   
+    text-align: center;
+    overflow: hidden;
+}
+.ppt1 .product_wrapper .product-list .product-list-item{
+    width:21.363634%;
+    display: inline-block;
+    margin: 0 1.454545% 5%;
+    vertical-align: top;
+}
+.ppt1 .product_wrapper .product-list .product-list-item .img_box{
+    width: 70%;
+    margin: 0 auto;
+}
+.ppt1 .product_wrapper .product-list .product-list-item .img_box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+} 
+.ppt1 .product_wrapper .product-list .product-list-item p{
+    margin-top:12px;
+}
+.product-list-item p:hover{
+    color:#c40d2e;
+}
+.action{
+    position: relative;
+    margin: 0;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    display: inline-block;
+    zoom: 1;
+    box-sizing: border-box;
+    padding: 0 40px;
+    text-align: center;
+    overflow: hidden;
+    transition: background .2s ease,color .2s ease,border .2s ease;
+}
+.action span{
+    position: relative;
+    display: inline-block;
+    padding: 14px 0 14px;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 112%;
+}
+.action:hover{
+    background:#c40d2e;
+    color:#fff;
+}
+.search:hover{
+    background:#c40d2e;
+    color:#fff;
+}
+.footer{
+    padding-top:10px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 950px) {
+    .ppt1 .product_wrapper .product-list .product-list-item{
+        width:29%;
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .t-breadcrumbs .search{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        top:0;
+        right:0;
+        text-align:center;
+    }
+}
+@media screen  and (max-width: 640px){
+    .ppt1 .product_wrapper .product-list .product-list-item{
+        width:43%;
+    }
+    .ppt1 .product_wrapper{
+        padding-bottom: 70px;
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .t-breadcrumbs .search{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+        top:0;
+        right:0;
+        text-align:center;
+    }
+    .ppt1 .title{
+        font-size:20px;
+    }
+}

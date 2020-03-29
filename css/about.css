@@ -1,0 +1,187 @@
+.t-breadcrumbs {
+    margin: 85px 35px 0 35px;
+}
+.t-breadcrumbs .breadcrumbs-item-text a{
+    font-size: 1em;
+    line-height: 20px;
+    color: #c40d2e;
+    margin: 0;
+}
+.ppt1{
+    position:relative;
+    width:100%;
+    text-align:center;
+    padding:50px 0;
+}
+.ppt1 .wrapper{
+    width:36%;
+    margin:0 auto;
+}
+.ppt1 li{
+    display:inline-block;
+    padding:50px 15px 50px 15px;
+}
+.ppt2{
+    position:relative;
+    width:100%;
+}
+.ppt2 .banner1,
+.ppt3 .banner2{
+    width:100%;
+    position: relative;
+}
+.ppt2 .banner1 .img_box,
+.ppt3 .banner2 .img_box{
+    width:100%;
+    cursor: pointer;
+}
+.ppt2 .banner1 .img_box .banner1_img,
+.ppt3 .banner2 .img_box .banner2_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    min-height:200px;
+}
+.ppt2 .banner1 .img_box .banner1_img:hover,
+.ppt3 .banner2 .img_box .banner2_img:hover{
+    transition: all 3s ease-out;
+    opacity: .8100000000000001;
+    transform: scale(1.01);
+}
+.ppt2 .banner1 p,
+.ppt3 .banner2 p{
+    position: absolute;
+    font-size: 2.5rem;
+    color: #fff;
+    top: calc(50% - 23px);
+    left: calc(50% - 74px);
+    letter-spacing: 2px;
+}
+.ppt2 .introduce,
+.ppt3 .introduce{
+    position: relative;
+    width:80%;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    margin:80px auto;
+}
+.ppt2 .introduce .img_box,
+.ppt3 .introduce .img_box{
+    width:50%;
+    padding:2%;
+}
+.ppt2 .introduce:nth-child(2) .img_box,
+.ppt3 .introduce:nth-child(2) .img_box{
+    order:1;
+}
+.ppt2 .introduce .img_box img,
+.ppt3 .introduce .img_box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.ppt2 .introduce .p_box,
+.ppt3 .introduce .p_box{
+    width:50%;
+    padding:2%;
+    letter-spacing: 3px;
+}
+.ppt2 .introduce .p_box .title,
+.ppt3 .introduce .p_box .title{
+    font-size: 25px;
+    color: #bf001d;
+    padding: 2% 0;
+}
+.ppt3{
+    position:relative;
+    width:100%;
+}
+.search_box1,.search_box2{
+    padding-top: 60px;
+    text-align: center;
+    display: none;
+    padding: 0;
+    margin: 34px 0 23px;
+}
+.search_box .p1{
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    padding: 5px 20px 0 0;
+    max-width: 85%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer{
+    padding-top:30px;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1250px) {
+    .ppt1 .wrapper {
+        width: 60%;
+    }
+    .ppt2 .introduce, .ppt3 .introduce{
+        width:90%;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+    .ppt1 .wrapper {
+        width: 75%;
+    }
+    .ppt2 .introduce, .ppt3 .introduce{
+        width:80%;
+        flex-wrap: wrap;
+    }
+    .ppt2 .introduce .img_box,
+    .ppt3 .introduce .img_box{
+    width:100%;
+    }
+    .ppt2 .introduce .p_box,
+    .ppt3 .introduce .p_box{
+    width:100%;
+    text-align:center;
+    }
+    .ppt2 .introduce:nth-child(2) .img_box,
+    .ppt3 .introduce:nth-child(2) .img_box{
+    order:0; 
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .ppt1{
+        padding: 30px 0 10px 0;
+    }
+    .ppt1 .wrapper{
+        width:80%;
+    }
+    .ppt2 .introduce, .ppt3 .introduce{
+        width:90%;
+        flex-wrap: wrap;
+        margin: 45px auto;
+    }
+    .ppt2 .introduce .img_box,
+    .ppt3 .introduce .img_box{
+    width:100%;
+    }
+    .ppt2 .introduce .p_box,
+    .ppt3 .introduce .p_box{
+    width:100%;
+    text-align:center;
+    }
+    .ppt2 .introduce:nth-child(2) .img_box,
+    .ppt3 .introduce:nth-child(2) .img_box{
+    order:0; 
+  }
+    .introduce_wrapper1,
+    .introduce_wrapper2{
+        display:none;
+    }
+    .search_box1,.search_box2{
+        display:block;
+    }
+.breadcrumbs{
+    display:none;
+}
+}

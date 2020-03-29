@@ -1,0 +1,261 @@
+.t-breadcrumbs {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    color: #fff;   
+}
+.t-breadcrumbs .breadcrumbs-item-text{
+    font-size: 1em;
+    line-height: 20px;
+    margin: 0;
+}
+.breadcrumbs a{
+    color:#fff;
+}
+.page_wrapper{
+    position:relative;
+    padding-top:60px;
+    width:100%;
+    background:#fff;
+}
+.ppt1{
+    width:100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+}
+.ppt1 .banner_wrapper1{
+    width:100%;
+    position:fixed;
+}
+.ppt1 .banner_wrapper1 .img_box{
+    width:100%;
+}
+.ppt1 .banner_wrapper1 .img_box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.ppt1 p{
+    position: absolute;
+    color:#fff;
+    font-size:2.5rem;
+    letter-spacing: 3px;
+    left:calc(50% - 76px);
+    top:calc(50% - 23px);
+}
+
+.wrapper{
+    position:relative;
+    width:100%;
+    margin-top: 22%;
+    padding:20px 130px;
+    background: #fff;
+    padding-top: 9%;
+}
+.adress{
+    width:40%;
+}
+.adress1{
+    padding-bottom:80px;
+}
+.adress p{
+    line-height: 2rem;
+    text-indent:20px;
+    font-weight: 600;
+}
+.adress .p2{
+    padding-top:10px;
+}
+.adress .p5{
+    font-size:18px;
+    font-weight: 300;
+}
+.adress1 .title{
+    font-weight: bold;
+    font-size:16px;
+}
+.input{
+    display: block;
+    width: 55%;
+    float: left;
+    border-top-style: none;
+    border-right-style: none;
+    top: -63px;
+    position: relative;
+    padding-left: 77px!important;
+}
+.input .p1{
+    width: 180px;
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 18px 40px;
+    text-align: center;
+    color: #000;
+}
+.input .input1{
+    margin-bottom:40px;
+}
+.btn{
+    margin-top:40px;
+    width: 180px;
+}
+.btn:hover{
+    background:#bf001d;
+}
+.btn:hover .p1{
+    color:#fff;
+    border-color: transparent;
+}
+.words{
+    position: relative;
+    width: 110%;
+    height: 60px;
+    left: -5%;
+    background: #ccc;
+    margin-bottom:70px;
+}
+.words p{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    padding: 12px 37px 10px 37px;
+    background: #fff;
+}
+.footer{
+    padding-top:60px;
+}
+.footer a {
+    color:#000;
+}
+@media (min-width:853px) and (max-width:1300px){
+    .wrapper{
+        padding: 20px 30px;
+        padding-top: 13%;
+    }
+    .input{
+        padding-left:40px;
+    }
+}
+@media (min-width:650px) and (max-width:853px){
+    .ppt1 p{
+        font-size: 21px;
+        left: calc(50% - 48px);
+        top: calc(50% - 13.5px);
+    }
+    .adress{
+        width:100%;
+    }
+    .input{
+        margin-top:40px;
+        width:100%;
+        padding-bottom: 0px;
+        padding-left:0!important;
+    }
+}
+
+@media (min-width:542px) and (max-width:650px){
+    .ppt1{
+        position:relative;
+        top: 0;
+    }
+    .ppt1 .banner_wrapper1{
+        position: relative;
+    }
+    .ppt1 .banner_wrapper1 .img_box img{
+        min-height: 230px;
+    }
+    .ppt1 p{
+        font-size:20px;
+        left: calc(50% - 54px);
+        top: calc(50% - 16px);
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .wrapper{
+        width:100%;
+        padding:20px 80px;
+        margin-top: 10%;
+    }
+    .adress{
+        width:100%;
+    }
+    .input{
+        width:100%;
+        margin-top:40px;
+        padding-bottom: 0px;
+        padding-left:0!important;
+    }
+}
+
+@media (min-width:400px) and (max-width:542px){
+    .ppt1{
+        position:relative;
+        top: 0;
+    }
+    .ppt1 .banner_wrapper1{
+        position: relative;
+    }
+    .ppt1 .banner_wrapper1 .img_box img{
+        min-height: 230px;
+    }
+    .ppt1 p{
+        font-size:20px;
+        left: calc(50% - 54px);
+        top: calc(50% - 16px);
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .wrapper{
+        width:100%;
+        padding:20px 40px;
+        margin-top: 10%;
+    }
+    .adress{
+        width:100%;
+    }
+    .input{
+        width:100%;
+        margin-top:40px;
+        padding-bottom: 0px;
+        padding-left:0!important;
+    }
+}
+
+@media (max-width:400px){
+    .ppt1{
+        position:relative;
+        top: 0;
+    }
+    .ppt1 .banner_wrapper1{
+        position: relative;
+    }
+    .ppt1 .banner_wrapper1 .img_box img{
+        min-height: 230px;
+    }
+    .ppt1 p{
+        font-size:20px;
+        left: calc(50% - 46px);
+        top: calc(50% - 13px);
+    }
+    .breadcrumbs{
+        display:none;
+    }
+    .wrapper{
+        width:100%;
+        padding:10px 10px;
+        margin-top: 10%;
+    }
+    .adress{
+        width:100%;
+    }
+    .input{
+        width:100%;
+        margin-top:40px;
+        padding-bottom: 0px;
+        padding-left:0!important;
+    }
+}

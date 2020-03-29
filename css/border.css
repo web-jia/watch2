@@ -1,0 +1,54 @@
+@media screen and (min-width: 1680px) and (max-width: 1750px){
+    .ppt8 .swiper-slide .wrapper::after,
+    .ppt4 .swiper-slide .wrapper::after{
+        width: 153%;
+    }
+    .ppt4 .swiper-slide .wrapper::after{
+        height:124%;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1680px){
+    .ppt8 .swiper-slide .wrapper::after,
+    .ppt4 .swiper-slide .wrapper::after{
+        width: 164%;
+    }
+    .ppt4 .swiper-slide .wrapper::after{
+        height:124%;
+    }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px){
+    .ppt8 .swiper-slide .wrapper::after,
+    .ppt4 .swiper-slide .wrapper::after{
+        width: 171%;
+    }
+    .ppt4 .swiper-slide .wrapper::after{
+        height:124%;
+    }
+}
+@media screen and (min-width: 1490px) and (max-width: 1550px){
+    .ppt8 .swiper-slide .wrapper::after,
+    .ppt4 .swiper-slide .wrapper::after{
+        width: 186%;
+    }
+    .ppt4 .swiper-slide .wrapper::after{
+        height:124%;
+    }
+}
+@media screen and (min-width: 1450px) and (max-width: 1490px){
+    .ppt8 .swiper-slide .wrapper::after,
+    .ppt4 .swiper-slide .wrapper::after{
+        width: 204%;
+    }
+    .ppt4 .swiper-slide .wrapper::after{
+        height:124%;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 1450px){
+    .ppt8 .swiper-slide .wrapper::after,
+    .ppt4 .swiper-slide .wrapper::after{
+        width: 173px;
+    }
+    .ppt4 .swiper-slide .wrapper::after{
+        height:124%;
+    }
+}
